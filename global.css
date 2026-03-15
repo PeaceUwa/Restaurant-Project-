@@ -51,6 +51,9 @@ img{
 }
 
 header{
+  position: sticky;
+  top: 0;
+  margin: auto;
   display: grid;
   grid-template-columns: 1fr;
   
@@ -256,6 +259,11 @@ body {
 
 /* media queries for responsiveness on larger screens */
 @media (min-width: 768px){
+  header{
+    position: relative;
+    top: 0;
+  }
+  
   .article-wrapper{
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -264,6 +272,7 @@ body {
   .about{
     padding: 1em;
     display: flex;
+    gap: 1em;
     flex-direction: row;
     align-items: center;
     justify-content:space-between;
@@ -289,3 +298,30 @@ body {
   
 
 }
+
+@media (min-width) {
+  header{
+    position: relative;
+    top: 0;
+    margin: auto;
+  }
+
+  .about{
+    display:flex;
+    flex-direction: row;
+    gap: 1em;
+    align-items: center;
+  }
+
+  .about img{
+   width: 40%;
+  }
+  .about div{
+    width: 60%;
+  }
+
+  .why-card-wrapper,
+  .customer-review-card{
+    display: grid;
+    justify-items: center;
+    grid-template-columns: repeat(3, 1fr)
