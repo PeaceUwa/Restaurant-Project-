@@ -1,0 +1,291 @@
+body{
+  padding: 2em;
+  width: 100%;
+  max-width: 960px;
+  margin: auto;
+}
+
+a,
+button{
+  cursor: pointer;
+}
+
+a:link{
+  text-decoration: none;
+}
+
+a:visited{
+  color: brown;
+}
+
+a:hover,
+a:focus{
+  color: Red;
+}
+
+a:active{
+  color: green;
+}
+
+#menu-btn{
+  background: #D00000;
+  min-height: 38px;
+  width: 45%;
+  font-size: 1.3rem;
+  border: none;
+  border-radius: 1.5em;
+  color: #f8f8f8;
+  
+}
+
+
+button:hover,
+button:focus{
+  color: #D00000;
+  background: #f8f8f8;
+}
+
+
+img{
+  width: 100%;
+}
+
+header{
+  display: grid;
+  grid-template-columns: 1fr;
+  
+}
+
+nav{
+  paddin: 0;
+  margin: 0;
+}
+
+ul{
+  list-style: none;
+}
+
+header img{
+  margin-bottom: 1em;
+}
+
+header ul{
+  display: flex;
+  justify-content: space-evenly;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  align-items: center;
+  mrgin-bottom: 1.5em;
+}
+#header-btn{
+  place-self: center;
+  width: 40%;
+  margin-top: 1.5em;
+  text-align: center;
+  background: #D00000;
+  max-height: 38px;
+  padding: .7em;
+  border-radius: 2em;
+  color: #f8f8f8;
+}
+
+
+
+
+
+section{
+  margin-bottom: 10em;
+}
+
+
+.hero{
+  position: relative;
+  min-height: 300px;
+  background-image: url(/restaurant-project/images/jollof-rice.jpeg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding: 1em;
+  margin-top: 8em;
+  margin-bottom: 8em;
+}
+
+.hero-content{
+  width: 90%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  text-align: center;
+  transform: translate(-50%, -50%);
+}
+
+
+
+article{
+  padding: 1em;
+  margin-bottom: 3em;
+  border-radius: 1em;
+  box-shadow: 0 2px 2px rgba(0, 0, 0, 0.3);
+}
+
+.why-card{
+  display: flex;
+ align-items: flex-end;
+  gap: 1em
+}
+
+
+
+
+.about{
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+  padding: 1em;
+  border-radius: 1em;
+}
+.about img{
+  margin-bottom: 2em;
+}
+
+.why{
+  background: mintcream;
+  padding: 2em;
+  border-radius: 1em;
+  margin-bottom: 1em;
+}
+
+.card {
+  background: #f8f8f8;
+  border-radius: 1em;
+  padding: 1.5em;
+  margin-bottom: 1em;
+}
+
+.call-to-action{
+  position: relative;
+  background: #D00000;
+  min-height: 300px;
+  padding: 1em;
+  text-align: center;
+  border-radius: 2em;
+  margin-bottom: 8em;
+}
+
+.call-to-action-item{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.call-to-action h2,
+.call-to-action button{
+   width: 100%;
+   
+}
+
+.call-to-action button{
+  min-height: 38px;
+  margin-bottom: 1em;
+  background: #f8f8f8;
+  border-radius: 1em;
+  color: #D00000;
+  font-size: 1.3rem;
+}
+
+footer{
+  border-bottom: 2px solid gray;
+  border-radius: 1em;
+  background: #f8f8f8;
+  padding: 1em;
+  padding-bottom: 6em;
+  margin-bottom: 10em;
+ 
+}
+
+.footer-links{
+  background: #f8f8f8;
+  padding: 2em;
+  margin-top: 4em;
+  border-radius: 1em;
+}
+
+.footer-links h3{
+  color: #D00000;
+  
+}
+
+.contact-info{
+  
+  margin-bottom: 6em;
+  
+}
+
+iframe{
+  max-width: 100%;
+  margin: auto;
+  margin-bottom: 3em;
+  margin-top: 3em;
+}
+
+
+/* typography */
+body {
+  font-family: 'Playfair', serif;
+  font-weight: 400;
+  line-height: 1.6;
+}
+
+.hero{
+  color: #f8f8f8;
+}
+
+
+.why-card h3{
+  order:0;
+  margin: 0;
+}
+
+.why-card svg{
+  order: 1;
+}
+
+.price{
+  font-weight: 700;
+}
+
+/* media queries for responsiveness on larger screens */
+@media (min-width: 768px){
+  .article-wrapper{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2em;
+  }
+  .about{
+    padding: 1em;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content:space-between;
+  }
+  
+  .about img{
+    width: 40%;
+    
+  }
+  
+  .about div{
+    width: 60%;
+  }
+  
+  .why-card-wrapper,
+  .customer-review-card{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    padding: 1em;
+    justify-items: center;
+    gap: 1em;
+  }
+  
+
+}

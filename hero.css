@@ -1,0 +1,39 @@
+
+.hero-text-wrapper{
+  margin: auto;
+}
+
+.hero-btn-wrapper{
+  width: 100%;
+  display: flex;
+  gap: 1.5em;
+  justify-content: center;
+  margin: auto;
+}
+
+.hero button{
+  min-width: 40%;
+  padding: 1em;
+  max-height: 38px;
+  border-radius: 1.5em;
+  color: #f8f8f8;
+  border: none;
+  text-align: center;
+}
+
+#menu-btn{
+  background: #1D974C;
+  
+}
+
+#book-table-btn{
+  background: #D00000;
+  
+  
+  
+  
+}
+
+
+/* typography */
+
