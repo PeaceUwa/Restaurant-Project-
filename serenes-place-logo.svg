@@ -1,0 +1,29 @@
+<svg width="320" height="120" viewBox="0 0 320 120" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Background -->
+  <rect width="320" height="120" fill="#F8F5F0" />
+  
+  <!-- Plate circle -->
+  <circle cx="60" cy="60" r="35" fill="none" stroke="#3A6B57" stroke-width="4" />
+  
+  <!-- Fork -->
+  <line x1="50" y1="40" x2="50" y2="80" stroke="#3A6B57" stroke-width="3" />
+  <line x1="46" y1="40" x2="46" y2="50" stroke="#3A6B57" stroke-width="2" />
+  <line x1="50" y1="40" x2="50" y2="50" stroke="#3A6B57" stroke-width="2" />
+  <line x1="54" y1="40" x2="54" y2="50" stroke="#3A6B57" stroke-width="2" />
+  
+  <!-- Knife -->
+  <line x1="70" y1="40" x2="70" y2="80" stroke="#3A6B57" stroke-width="3" />
+  
+  <!-- Restaurant Name -->
+  <text x="120" y="60" font-famill="'Playfair Display', serif"
+  font-size="28" fill="#2F3E46">
+    Serene’s Place
+  </text>
+  
+  <!-- Tagline -->
+  <text x="120" y="85" font-family="'Playfair Display', serif" font-size="12" fill="#6B705C">
+    Good Food • Peaceful Moments
+  </text>
+  
+</svg>
